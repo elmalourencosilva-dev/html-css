@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Font em CSS </title>
+    <style>
+    @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap')
+        body {
+            font-family: Roboto, arial sans-serif;  
+        /*
+        Medidas absolutas: px, pt, cm, mm, in
+        Medidas relativas: em, rem, %, vw, vh, 
+        A mais utilizada é a px, que é pixel, que é a menor unidade de medida de tela, e em, que é a unidade de medida relativa ao tamanho da fonte do elemento pai.
+        */
+        font-size: 16px;
+        /* font-size: 1em;font-size: 16px; essa eh o tamanho padrão, melhor usa sempre em */ 
+        }
+
+        h1 
+        {
+            font: italic bold 2em Roboto, arial sans-serif;
+             /*font-family: Roboto, arial sans-serif
+            short-hand: font-style font-weight font-size font-family;
+            tem que ser nessa ordem, se colocar fora da ordem ele nao funciona
+            */
+        }
+        
+        
+    </style>
+</head>
+<body >
+    <h1>Trabalhando com Fonte</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.  Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
+    <h2>Subtitulo do Exercicio</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
+</body>
+</html>

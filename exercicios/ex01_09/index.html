@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="imagem/favicon.ico" type="image/x-icon"> <!--O favicon é o ícone que aparece na aba do navegador, ao lado do título da página.-->
+    <title>Todos os Exercícios</title>
+
+    
+</head>
+<body>
+    <h1>Parágrafos e quebras de linha</h1>
+    <hr>
+    <p>Você pode escrever um parágrafo de qualquer jeito. <br>Basta colcocar tudo no meio do par de tags &lt;p&gt; e &lt;/p&gt; <!--Esses símbolos significam less than e greater than--></p>
+    <h1>Símbolos especiais e emojis</h1>
+    <p>Vamos adiconar simpolos especiais: 
+        &copy;
+         &reg; 
+         &trade;</p>
+         <p>Vamos adiconar emojis através do emojipedia, é só copiar o codigo do emoji e colar onde desejar. Tem como copiar o próprio desenho.❤️</p>
+         <p>❤️ código U+2764 <br>
+         🔥 código U+1F525 <br>
+         👀 código U+1F440
+         </p>
+
+         <h1>Imagens</h1>
+            <p>Para adicionar imagens, você precisa do link da imagem. Depois é só colocar o link dentro do atributo src da tag &lt;img&gt; e pronto! A imagem vai aparecer na tela.</p>
+            <img src="imagem/full html.png" alt="logo do HTML"> <!--O atributo alt é usado para colocar uma descrição da imagem, caso ela não carregue.As imagens devem estar previamente salvas na pasta do projeto-->
+
+            <h1>Mudar o Favicon</h1>
+            <p>Para mudar o favicon, você precisa criar um arquivo .ico e colocá-lo na pasta do projeto. Depois, adicione a tag &lt;link&gt; rel="shortcut icon" href="imagem/favicon.ico" type="image/x-icon" no cabeçalho do documento, apontando para o arquivo .ico.</p> <!--link rel="shortcut icon" href="imagem/favicon.ico" type="image/x-icon"O favicon é o ícone que aparece na aba do navegador, ao lado do título da página.-->
+
+            <h1>Negrito e Itálico</h1>
+            <p>Para deixar um texto em negrito, você pode usar a tag &lt;b&gt; ou &lt;strong&gt;. A tag &lt;b&gt; é usada para dar destaque ao texto, enquanto a tag &lt;strong&gt; é usada para indicar que o texto é importante.</p>
+            <strong>Este é um texto em negrito.</strong>
+            <p>Para deixar um texto em itálico, você pode usar a tag &lt;i&gt; ou &lt;em&gt;. A tag &lt;i&gt; é usada para dar destaque ao texto, enquanto a tag &lt;em&gt; é usada para indicar que o texto é importante.</p>
+            <em>Este é um texto em itálico.</em>
+
+            <h1>Colocar Abreviação</h1>
+            <p>Para colocar uma abreviação, você pode usar a tag &lt;abbr&gt;. A tag &lt;abbr&gt; é usada para indicar que o texto é uma abreviação e deve ser lido como tal.</p>
+            <abbr title="Hypertext Markup Language">HTML</abbr> é uma linguagem de marcação usada para criar páginas da web.<!--O atributo title é usado para colocar uma descrição da abreviação, que aparece quando o usuário passa o mouse sobre a abreviação.-->
+            <h1>Colocar Citação</h1>
+            <p>Para colocar uma citação, você pode usar a tag &lt;blockquote&gt;. A tag &lt;blockquote&gt; é usada para indicar que o texto é uma citação e deve ser lido como tal.</p>
+            <blockquote cite="https://www.w3schools.com/html/html_blocks.asp">"HTML é a linguagem de marcação padrão para criar páginas da web. Ele é usado para estruturar o conteúdo da página, como texto, imagens e links. HTML é uma linguagem de marcação baseada em tags, que são usadas para definir elementos da página, como títulos, parágrafos, listas e tabelas. HTML é uma linguagem de marcação que é interpretada pelos navegadores da web, que exibem o conteúdo da página de acordo com as tags usadas."</blockquote>
+            <h1>Marcadores</h1>
+            <p>Para criar uma lista com marcadores, você pode usar a tag &lt;ul&gt; (unordered list) e a tag &lt;li&gt; (list item). A tag &lt;ul&gt; é usada para criar uma lista não ordenada, enquanto a tag &lt;li&gt; é usada para criar cada item da lista.</p>
+            <ul>
+                <li>Item 1</li>
+                <li>Item 2</li>
+                <li>Item 3</li>
+            </ul>
+            <h1>Numeração</h1>
+            <p>Para criar uma lista com numeração, você pode usar a tag &lt;ol&gt; (ordered list) e a tag &lt;li&gt; (list item). A tag &lt;ol&gt; é usada para criar uma lista ordenada, enquanto a tag &lt;li&gt; é usada para criar cada item da lista.</p>
+            <ol>
+                <li>Item 1</li>
+                <li>Item 2</li>
+                <li>Item 3</li>
+            </ol>
+
+            <h1>Colocar Link</h1>
+            <p>Para colocar um link, você pode usar a tag &lt;a&gt;. A tag &lt;a&gt; é usada para criar um link para outra página ou site.</p>
+            <a href="https://www.w3schools.com/html/html_links.asp">Clique aqui para acessar o site da W3Schools</a>
+            <h1>Colocar Tabela</h1>
+            <p>Para criar uma tabela, você pode usar a tag &lt;table&gt;, a tag &lt;tr&gt; (table row), a tag &lt;th&gt; (table header) e a tag &lt;td&gt; (table data). A tag &lt;table&gt; é usada para criar a tabela, a tag &lt;tr&gt; é usada para criar cada linha da tabela, a tag &lt;th&gt; é usada para criar o cabeçalho da tabela e a tag &lt;td&gt; é usada para criar cada célula da tabela.</p>
+            <table border="1">
+              </p>
+                <tr>
+                    <th>Nome</th>
+                    <th>Idade</th>
+                    <th>Cidade</th>
+                </tr>
+                <tr>
+                    <td>João</td>
+                    <td>25</td>
+                    <td>São Paulo</td>
+                </tr>
+                <tr>
+                    <td>Maria</td>
+                    <td>30</td>
+                    <td>Rio de Janeiro</td>
+                </tr>
+                <tr>
+                    <td>Pedro</td>
+                    <td>35</td>
+                    <td>Belo Horizonte</td>
+                </tr>
+            </table>
+
+              <h1>Marcador de texto</h1>
+                para criar um marcador de texto, você pode usar a tag &lt;mark&gt;. A tag &lt;mark&gt; é usada para destacar o texto, indicando que ele é importante ou relevante.
+                <mark>Este é um texto marcado.</mark>
+        </body>
+
+
