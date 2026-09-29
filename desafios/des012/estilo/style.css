@@ -52,6 +52,15 @@ section {
     padding-left: 30px;
     font-size: 3.5vw;
 }
+section > p {
+    padding-bottom: 2em;
+}
+section#img001 {
+    background-image: url(../pacote-d012/imagens/background001.jpg);
+}
+section#img002 {
+    background-image: url(../pacote-d012/imagens/background002.jpg);
+}
 section.normal {
     background-color: white;
     color: black;
