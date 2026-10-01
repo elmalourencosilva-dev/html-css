@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+
+        }
+        table {
+            width: 500px;
+            border-collapse: collapse;
+            position: relative;
+        }
+        td, th {
+            border: 1px solid black;
+        }
+        thead, tfoot {
+            background-color: gray;
+            color: white;
+        }
+        thead > tr > th {
+            position: sticky;
+            top: 0;
+            background-color: #383838;
+        }
+         tbody > tr:nth-child(odd) {
+            background-color: aquamarine;
+        }
+        caption {
+            font-size: 1em;
+            font-weight: bold;
+            padding: 10px;
+            background-color: lightgray;
+        }
+        td.num {
+            text-align: right;
+        }
+        td.num2 {
+            text-align: center;
+        }
+       
+
+    </style>
+</head>
+
+<body>
+    <h1>Uso de tabelas grandes</h1>
+    <!--
+        ANATOMIA PARA TABELAS GRANDES
+        TABLE
+            CAPTION
+            THEAD
+                TR, TD, TH
+            TBODY
+                TR, TD, TH
+            TFOOT
+                TR, TD, TH
+    -->
+    <table>
+        <caption>População da Unidades Federativas</caption>
+        <thead>
+            <tr>
+                <th scope="col">Estado</th>
+                <th scope="col" style="width: 100px;">População</th>
+                
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><img src="bandeiras/SP.png" alt="São Paulo" width="20">São Paulo</td>
+                <td class="num">46 179 008</td>
+            
+</td>
+            </tr>
+            <tr>
+                <td><img src="bandeiras/MG.png" alt="Minas Gerais" width="20">Minas Gerais</td>
+                <td class="num">21 460 311</td>
+            
+            </tr>
+            <tr>
+                <td><img src="bandeiras/RJ.png" alt="Rio de Janeiro" width="20">Rio de Janeiro</td>
+                <td class="num">17 225 410</td>
+                
+            </tr>
+            <tr>
+                <td><img src="bandeiras/BA.png" alt="Bahia" width="20">Bahia</td>
+                <td class="num">14 889 472</td>
+
+            </tr>
+            <tr>
+                <td><img src="bandeiras/PR.png" alt="Paraná" width="20">Paraná</td>
+                <td class="num">11 952 456</td>
+               
+            </tr>
+            <tr>
+                <td><img src="bandeiras/RS.png" alt="Rio Grande do Sul" width="20">Rio Grande do Sul</td>
+                <td class="num">11 233 317</td>
+                
+            </tr>
+            <tr>
+                <td><img src="bandeiras/PE.png" alt="Pernambuco" width="20">Pernambuco</td>
+                <td class="num">9 583 176</td>
+               
+            </tr>
+            <tr>
+                <td><img src="bandeiras/CE.png" alt="Ceará" width="20">Ceará</td>
+                <td class="num">9 302 211</td>
+                
+            </tr>
+            <tr>
+                <td><img src="bandeiras/PA.png" alt="Pará" width="20">Pará</td>
+                <td class="num">8 756 324</td>
+                
+            </tr>
+            <tr>
+                <td><img src="bandeiras/SC.png" alt="Santa Catarina" width="20">Santa Cataria</td>
+                <td class="num">8 312 759</td>
+                
+            </tr>
+            <tr>
+                <td><img src="bandeiras/GO.png" alt="Goiás" width="20">Goiás</td>
+                <td class="num">7 495 033</td>
+                
+            </tr>
+            <tr>
+                <td><img src="bandeiras/MA.png" alt="Maranhão" width="20">Maranhão</td>
+                <td class="num">7 024 557</td>
+                
+            </tr>
+            <tr>
+                <td><img src="bandeiras/AM.png" alt="Amazonas" width="20">Amazonas</td>
+                <td class="num">4 360 926</td>
+                
+            </tr>
+            <tr>
+                <td><img src="bandeiras/PB.png" alt="Paraíba" width="20">Paraíba</td>
+                <td class="num">4 182 828</td>
+                
+            </tr>
+            <tr>
+                <td><img src="bandeiras/ES.png" alt="Espírito Santo" width="20">Espirito Santo</td>
+                <td class="num">4 150 692</td>
+               
+            </tr>
+            <tr>
+                <td><img src="bandeiras/MT.png" alt="Mato Grosso" width="20">Mato Grosso</td>
+                <td class="num">3 950 330</td>
+                
+            </tr>
+            <tr>
+                <td><img src="bandeiras/RN.png" alt="Rio Grande do Norte" width="20">Rio Grande do Norte</td>
+                <td class="num">3 463 737</td>
+                
+            </tr>
+            <tr>
+                <td><img src="bandeiras/PI.png" alt="Piauí" width="20">Piauí</td>
+                <td class="num">3 392 617</td>
+                
+            </tr>
+            <tr>
+                <td><img src="bandeiras/AL.png" alt="Alagoas" width="20">Alagoas</td>
+                <td class="num">3 221 128</td>
+                
+            </tr>
+            <tr>
+                <td><img src="bandeiras/DF.png" alt="Distrito Federal" width="20">Distrito Federal</td>
+                <td class="num">3 009 996</td>
+                
+            </tr>
+            <tr>
+                <td><img src="bandeiras/MS.png" alt="Mato Grosso do Sul" width="20">Mato Grosso do Sul</td>
+                <td class="num">2 946 317</td>
+                
+            </tr>
+            <tr>
+                <td><img src="bandeiras/SE.png" alt="Sergipe" width="20">Sergipe</td>
+                <td class="num">2 307 255</td>
+                
+            </tr>
+            <tr>
+                <td><img src="bandeiras/RO.png" alt="Rondônia" width="20">Rondônia</td>
+                <td class="num">1 757 338</td>
+                
+
+            </tr>
+            <tr>
+                <td><img src="bandeiras/TO.png" alt="Tocantins" width="20">Tocantins</td>
+                <td class="num">1 595 994</td>
+                
+            </tr>
+            <tr>
+                <td><img src="bandeiras/AC.png" alt="Acre" width="20">Acre</td>
+                <td class="num">887 794</td>
+                
+            </tr>
+            <tr>
+                <td> <img src="bandeiras/AP.png" alt="Amapa" width="20">Amapá</td>
+                <td class="num">809 953</td>
+                
+            </tr>
+             <tr>
+                <td><img src="bandeiras/RR.png" alt="Roraima" width="20">Roraima</td>
+                <td class="num">761 012</td>
+                
+               
+</td>
+            </tr>
+        </tbody>
+            <tfoot>
+               <th scope="row">Total de Habitantes</th>
+               <td class="num2"><strong>214 211 951</strong></td>
+    </tfoot>
+    
+    </table>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt rerum veniam aut dignissimos quae aspernatur cupiditate nam ab eum vitae tenetur commodi, culpa laudantium minus totam sit omnis quisquam explicabo? Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis sunt nostrum et neque repudiandae inventore est molestiae facilis perspiciatis mollitia, dicta numquam! Ullam laborum aspernatur modi sint a recusandae adipisci! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dicta blanditiis aperiam aliquid est temporibus, quo maxime vel doloribus at? Porro ut dignissimos magnam dolorum nihil exercitationem saepe quis ducimus soluta? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum dolore modi cum enim eos consectetur corrupti voluptatem, officia sunt, ducimus eius non vel excepturi, accusantium provident quisquam debitis recusandae quia.</p>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt rerum veniam aut dignissimos quae aspernatur cupiditate nam ab eum vitae tenetur commodi, culpa laudantium minus totam sit omnis quisquam explicabo? Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis sunt nostrum et neque repudiandae inventore est molestiae facilis perspiciatis mollitia, dicta numquam! Ullam laborum aspernatur modi sint a recusandae adipisci! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dicta blanditiis aperiam aliquid est temporibus, quo maxime vel doloribus at? Porro ut dignissimos magnam dolorum nihil exercitationem saepe quis ducimus soluta? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum dolore modi cum enim eos consectetur corrupti voluptatem, officia sunt, ducimus eius non vel excepturi, accusantium provident quisquam debitis recusandae quia.</p>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt rerum veniam aut dignissimos quae aspernatur cupiditate nam ab eum vitae tenetur commodi, culpa laudantium minus totam sit omnis quisquam explicabo? Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis sunt nostrum et neque repudiandae inventore est molestiae facilis perspiciatis mollitia, dicta numquam! Ullam laborum aspernatur modi sint a recusandae adipisci! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dicta blanditiis aperiam aliquid est temporibus, quo maxime vel doloribus at? Porro ut dignissimos magnam dolorum nihil exercitationem saepe quis ducimus soluta? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum dolore modi cum enim eos consectetur corrupti voluptatem, officia sunt, ducimus eius non vel excepturi, accusantium provident quisquam debitis recusandae quia.</p>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt rerum veniam aut dignissimos quae aspernatur cupiditate nam ab eum vitae tenetur commodi, culpa laudantium minus totam sit omnis quisquam explicabo? Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis sunt nostrum et neque repudiandae inventore est molestiae facilis perspiciatis mollitia, dicta numquam! Ullam laborum aspernatur modi sint a recusandae adipisci! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dicta blanditiis aperiam aliquid est temporibus, quo maxime vel doloribus at? Porro ut dignissimos magnam dolorum nihil exercitationem saepe quis ducimus soluta? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum dolore modi cum enim eos consectetur corrupti voluptatem, officia sunt, ducimus eius non vel excepturi, accusantium provident quisquam debitis recusandae quia.</p>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt rerum veniam aut dignissimos quae aspernatur cupiditate nam ab eum vitae tenetur commodi, culpa laudantium minus totam sit omnis quisquam explicabo? Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis sunt nostrum et neque repudiandae inventore est molestiae facilis perspiciatis mollitia, dicta numquam! Ullam laborum aspernatur modi sint a recusandae adipisci! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dicta blanditiis aperiam aliquid est temporibus, quo maxime vel doloribus at? Porro ut dignissimos magnam dolorum nihil exercitationem saepe quis ducimus soluta? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum dolore modi cum enim eos consectetur corrupti voluptatem, officia sunt, ducimus eius non vel excepturi, accusantium provident quisquam debitis recusandae quia.</p>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt rerum veniam aut dignissimos quae aspernatur cupiditate nam ab eum vitae tenetur commodi, culpa laudantium minus totam sit omnis quisquam explicabo? Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis sunt nostrum et neque repudiandae inventore est molestiae facilis perspiciatis mollitia, dicta numquam! Ullam laborum aspernatur modi sint a recusandae adipisci! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dicta blanditiis aperiam aliquid est temporibus, quo maxime vel doloribus at? Porro ut dignissimos magnam dolorum nihil exercitationem saepe quis ducimus soluta? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum dolore modi cum enim eos consectetur corrupti voluptatem, officia sunt, ducimus eius non vel excepturi, accusantium provident quisquam debitis recusandae quia.</p>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt rerum veniam aut dignissimos quae aspernatur cupiditate nam ab eum vitae tenetur commodi, culpa laudantium minus totam sit omnis quisquam explicabo? Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis sunt nostrum et neque repudiandae inventore est molestiae facilis perspiciatis mollitia, dicta numquam! Ullam laborum aspernatur modi sint a recusandae adipisci! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dicta blanditiis aperiam aliquid est temporibus, quo maxime vel doloribus at? Porro ut dignissimos magnam dolorum nihil exercitationem saepe quis ducimus soluta? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum dolore modi cum enim eos consectetur corrupti voluptatem, officia sunt, ducimus eius non vel excepturi, accusantium provident quisquam debitis recusandae quia.</p>
+</body>
+</html>
